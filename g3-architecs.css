@@ -1,0 +1,509 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.mean-font{
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+/* universal-css */
+a ,li{
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+/* shared style start*/
+.display-flex{
+    display: flex;
+}
+.bg-mean-color-01{
+    background-color: rgba(255, 144, 14, 0.10);
+}
+
+.dark-01-light{
+    color: #131313;
+}
+
+.dark-01-gray{
+    color: #424242;
+
+    
+}
+
+.dark-03{
+    color: #727272;
+}
+.primary-button{
+  background-color:rgba(255, 144, 14, 1.00) ;
+  color: #FFFFFF; 
+  padding: 1rem 1.2rem;
+  border-radius:0.5rem ;
+  font-weight: 600;
+  
+
+}
+
+
+/* shared-style-end */
+
+/* nav-ber design start */
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    
+}
+.brand-name{
+    font-weight: 700;
+    font-size: 2.8rem;
+}
+.nav-items{
+    margin-right: 20px;
+}
+
+/* nav-ber-end   */
+/* banner-section-start */
+
+.banner-section{
+    max-width: 80%; 
+    margin: 0 auto;                    
+}
+
+
+.banner-content{
+    margin:3rem auto;
+    text-align: center;
+    max-width: 862px;
+    max-height: 225px;
+    align-items: center;
+
+
+}
+.banner-area-title{
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+
+.banner-area-drescription{
+    margin-bottom: 2rem;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.banner-section-img{
+    margin-top: 4rem;
+    width: 100%;
+    /* height: 43rem; */
+    /* margin: auto; */
+}
+
+/* banner-area-end */
+/* features-area-start */
+.main{
+    max-width: 80%;
+    margin: 0 auto;
+}
+.features{
+    display: flex;
+    margin: 130px auto;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.features-team-picture{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-right: 70px;
+    gap: 24px;
+}
+
+.features-team-content{
+    max-width: 530px;
+
+}
+.features-heading{
+    font-size: 3rem;
+    margin: 22px 0;
+}
+
+#Features{
+    color: rgba(255, 144, 14, 1.00);
+
+}
+
+#Quick-list{
+    font-weight: 500;
+}
+
+.features-drescription{
+    color: #727272;
+    font-size: 16px;
+    padding-bottom: 22px;
+}
+
+/* about-achievement-section */
+
+.about-header{
+    color: #131313;
+    font-size:2.5rem;
+    font-weight: 700;
+}
+
+
+.achievement{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+
+}
+.achievement-box{
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    width: 240px;
+    height: 240px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.achievement-title{
+    font-size: 2.6rem;
+    color: #424242;
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+
+.achievement-drescription{
+    color: #727272;
+    margin: 0;
+    font-size: 1.25rem;
+}
+.sponsors-area{
+    margin: 100px auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.sponsor-title{
+    font-size: 2.5rem;
+    color: #131313;
+    font-weight: bold;
+    margin: 10px;
+}
+
+/* .sponsor-area-div{
+    max-width: 542px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+} */
+
+
+.sponsor-drescription{
+    color: #727272;
+    margin-bottom: 58px;
+}
+
+
+
+.sponsor-company-list{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    
+}
+.sponsor-company{
+    filter: grayscale(100%);
+}
+
+/* 2nd features area start */
+.features-content-title{
+    font-size: 3rem;
+    color: #131313;
+    font-weight: 700;
+    border-left: 5px solid #FF900E;
+    padding-left: 15px;
+    margin: 0px;
+}
+.features-area{
+    gap: 130px;
+    margin-top: 130px;
+}
+
+
+.features-content-area-subtitle{
+    color: #727272;
+}
+
+.features-content-box{
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow:0 4px 30px 0 rgba(0, 0, 0, 0.06) ;
+    margin-bottom: 10px;
+
+}
+
+.secondary-button{
+    border: none;
+    font-family: "Work Sans", sans-serif;
+
+}
+
+#btn-mean{
+    font-weight:700 ;
+    font-size: 4rem;
+    
+}
+
+.secondary-button{
+    padding: 35px;
+    margin-left: -100px;
+    margin-top: -80px;
+}
+#btn-subtile{
+ font-weight: 600;   
+ font-size: 1.5rem;
+
+}
+
+/* footer section start */
+footer{
+    max-width: 80%;
+    margin: 100px auto;
+    text-align: center;
+  
+}
+
+.copyrights-section-title{
+    color: #424242;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+.footer-section{
+    background-color: rgba(255, 244, 231, 1);
+    width: 100%;
+    border-radius: 10px;
+    padding: 20px 0;
+
+}
+
+@media screen and (max-width:576px) {
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
+
+     /* nav-bar-responsiv */
+    .nav-bar{
+        max-width:90%;
+        margin: 0 auto;
+    }
+
+    .brand-name{
+        font-size: 1rem;
+        margin: 20px;
+    }
+    .nav-items{
+    font-size: 16px;
+    
+} 
+    .nav-bar-content{
+        display: flex;
+        width: 100%;  
+        justify-content: space-between;
+
+    }
+
+    .banner-section{
+        margin: 0 auto;
+        padding-bottom: 50px;
+        margin-bottom: 50px;
+    }
+
+    .banner-area-title{
+        font-size: 2rem;
+    }
+
+    /* feature-area-responsive */
+    .features-team-picture{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .features{
+       flex-direction: column;
+       margin: 0 auto;
+       width: 100%;
+
+    }
+
+    .features-team-content{
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .features-team-picture{
+        margin: 0;
+        padding: 0;
+    }
+    /* second feature area start */
+
+    .features-content-title{
+        font-size: 2rem;
+        margin-bottom: 30px;
+        padding-left: 10px;
+    }
+
+    .features-content-area-subtitle{
+        font-size: 12px;
+    }
+
+    .features-content-box{
+        margin: 30px auto;
+
+
+    }
+
+        .features-area{
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+    .features-area-content{
+        max-width: 90%;
+        
+    }
+
+     
+    .area-img img{
+        max-width: 90%;
+    }
+    
+    .secondary-button{
+       margin: 16px auto;
+       text-align: center;
+       padding: 10px;
+       font-size: 1rem;
+       
+    
+
+    }
+    
+    
+
+    #btn-subtile{
+        font-size: 1rem;
+    }
+
+    #btn-mean{
+        font-size: 2rem;
+    }
+
+    /* socondary section end */
+
+
+    .achievement{
+        grid-template-columns: 1fr;
+        padding-top: 50px;
+    }
+
+    .achievement :hover{
+        background-color: rgb(99, 216, 216);
+        border-color: #131313;
+    }
+
+    .achievement-box{
+        margin-top: 20px;
+        
+
+    }
+
+    
+    .about-us-area{
+        margin: 50px auto;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-title-drescription{
+        text-align: center;
+    }
+
+    /* sponsor-area */
+
+    .sponsor-company-list{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 25px;
+
+    
+}
+.sponsors-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+}
+/* responsive css for medium device */
+
+
+ @media screen and (min-width:576px) and (max-width:992px) {
+
+    .features{
+        flex-direction: column;
+        width: 70%;
+        margin: 100px auto;
+    }
+
+    .features-area{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .secondary-button{
+        margin: 30px auto;
+        text-align: center;
+    }
+
+    .achievement{
+        grid-template-columns: repeat(2,1fr);
+        padding-top: 50px;
+        gap: 10px;
+    }
+    .about-us-area{
+        margin: 50px auto;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .about-title-drescription{
+        text-align: center;
+       
+
+    }
+
+
+
+
+ }
